@@ -1,4 +1,5 @@
 package com.company;
+
 import java.util.Scanner;
 
 public class EqualsString {
@@ -10,7 +11,6 @@ public class EqualsString {
         String str2 = "hello";
         char ch = 'a';
         int a = ch;
-
         System.out.println(a);
         System.out.println(str1 == str2);
         String str3 = str1.intern();*/
@@ -19,6 +19,11 @@ public class EqualsString {
     }
 
     public int findLength(int x1, int x2, int y1, int y2) {
+        return 2;
+    }
+
+
+    public int sout(int x1, int x2, int y1, int y2) {
         return 2;
     }
 
